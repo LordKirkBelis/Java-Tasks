@@ -1,0 +1,26 @@
+package homework_static_final_access_modifiers;
+
+public class Library {
+    private String bookTitle;
+    protected String author;
+    int year;
+
+    public String getBookTitle() {
+        return bookTitle;
+    }
+    public void setBookTitle(String bookTitle) {
+        this.bookTitle = bookTitle;
+    }
+    public String getAuthor() {
+        return author;
+    }
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+    public int getYear() {
+        return year;
+    }
+    public void setYear(int year) {
+        this.year = year;
+    }
+}
